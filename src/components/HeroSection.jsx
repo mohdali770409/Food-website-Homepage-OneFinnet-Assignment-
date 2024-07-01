@@ -52,13 +52,13 @@ import Navbar from "./Navbar";
 
 const HeroSection = () => {
   return (
-    <>
+    <div className="mx-auto">
       <Navbar />
       <div className="h-[100vh] flex flex-col pt-20 md:pt-0 md:flex-row relative max-w-[1300px] mx-auto  ">
         {/* First half */}
         <div className="w-full md:w-[55%] bg-[#F2F1EC] flex justify-center items-center">
           <div className="w-[90%] flex flex-col gap-4 mx-auto">
-            <div className="text-[#313131] font-bold text-xl">
+            <div className="text-[#313131] font-bold text-xl ">
               Discount up to 20%
             </div>
             <div className="text-[#313131] text-4xl md:text-5xl font-semibold">
@@ -94,7 +94,7 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

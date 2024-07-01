@@ -8,7 +8,7 @@ const MealCard = ({ name, pic }) => {
   }
 
   return (
-    <div className="flex h-[60px] justify-between w-full space-x-5">
+    <div className="flex flex-col md:flex-row h-[60px] justify-between w-full space-x-5 ">
       <div className="flex items-center ">
         <img
           src={pic}
@@ -22,7 +22,7 @@ const MealCard = ({ name, pic }) => {
           <p className="text-xs"> Lorem ipsum, dolor sit amet consectetur...</p>
         </div>
       </div>
-      <div className="flex flex-col justify-between ">
+      <div className="flex  md:flex-col justify-between ">
         <p className="text-[#345333] font-semibold text-lg">$8.45</p>
         <button className="text-[#345333]">
           SHOP NOW <FaArrowRight className="inline ml-1" />{" "}
